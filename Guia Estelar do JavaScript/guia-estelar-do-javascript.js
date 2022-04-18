@@ -22,3 +22,26 @@ console.log(12.5 * 2 * (11 * 10))
 console.log(12.5 * 2 * '(11 * 10)') // returns "NaN"
 console.log(42 === Infinity) // returns "false"
 console.log(21 * 2 === 42) // returns "true"
+
+// Boolean
+
+console.log(true)
+console.log(false)
+
+// Undefined vs Null
+
+console.log(undefined)
+console.log(null)
+console.log(undefined === null) // returns false
+
+// Object
+
+console.log({
+  name: 'João Pedro',
+  idade: 19,
+  cidade: 'Campo Grande - MS'
+})
+
+// Array (vetor)
+
+console.log(['João Pedro', 19, 'Campo Grande - MS'])
